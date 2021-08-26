@@ -1,0 +1,28 @@
+{
+  "name": "metamask-connect",
+  "version": "1.0.0",
+  "description": "metamask connect and contract manager",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "mkdir -p dist && rm -rf dist/* && tsc --project ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuanjunliang/metamask-connect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuanjunliang/metamask-connect/issues"
+  },
+  "homepage": "https://github.com/yuanjunliang/metamask-connect#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@metamask/detect-provider": "^1.2.0",
+    "@metamask/providers": "^8.1.1",
+    "web3": "^1.5.2"
+  }
+}
