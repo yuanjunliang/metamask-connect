@@ -2,9 +2,9 @@
   "name": "metamask-connect",
   "version": "1.0.0",
   "description": "metamask connect and contract manager",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "mkdir -p dist && rm -rf dist/* && tsc --project ."
+    "build": "rm -rf dist && tsc ."
   },
   "repository": {
     "type": "git",

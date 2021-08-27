@@ -4,7 +4,6 @@ import { MetaMaskInpageProvider } from "@metamask/providers";
 import { provider } from "web3-core";
 import { Contract, ContractOptions } from "web3-eth-contract";
 import { AbiItem } from "web3-utils";
-
 export default class Wallet {
   account: string;
   chainId: number | null;
